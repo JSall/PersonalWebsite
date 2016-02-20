@@ -13,9 +13,11 @@ namespace PersonalWebsite.Web.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Broken()
         {
-            ViewBag.Message = "Your application description page.";
+            string herp = null;
+
+            int derp = herp.Length;
 
             return View();
         }
