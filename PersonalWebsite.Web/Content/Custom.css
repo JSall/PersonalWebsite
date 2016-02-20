@@ -1,0 +1,48 @@
+﻿/*Classes*/
+.navbar-nav  >li > p {
+    color:#ffffff;
+    text-align:center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.carousel .item {
+height: 300px;
+}
+/*a.NavLink{
+    margin-left:5px;
+    margin-right:5px;
+    background-color:#000000;
+      color:#0fffff!important;
+}
+
+a.NavLink:hover{
+    margin-left:5px;
+    margin-right:5px;
+    background-color:#ffffff;
+      
+}
+
+a.NavLink:visited {
+
+      color:#428bca!important;
+}
+.jumbotron {
+    background-color:#ffffff;
+}
+.navbar-fixed-top {
+    background-color:#8E0A01;
+}*/
+.navbar-fixed-bottom {
+    background-color:#8E0A01;
+}
+.btn {
+    background-color:#0C01A2;
+    border-color:#7681E9;
+    color:#ffffff;
+}
+
+/*Element Styles*/
+body{
+    /*background-color:#DB84FF;*/
+
+}
