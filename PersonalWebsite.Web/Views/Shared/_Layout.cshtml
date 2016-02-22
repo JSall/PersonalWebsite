@@ -8,11 +8,11 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar">ooo?</span>
+                    <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
@@ -34,26 +34,30 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
+  
+        <br /><br />
+        <div style=" height:100px;">
+
+        </div>
         
-        <footer >
-            <nav class="nav navbar-fixed-bottom navbar-inverse">
-
-
-                <div style="" class="container">
-
-                    <img  src="~/Content/photos/gossipStone.png" title="boing boing" class="navbar-brand" style="height:70px;width:70px;"/> 
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <p>The current server time is @DateTime.Now</p>
-                        </li>
-                    </ul>
-                   
-                </div>
-            </nav>
-        </footer>
+     
     </div>
+    <footer style="margin-top:10px;">
+        <nav class="nav navbar-bottom navbar-inverse">
 
+
+            <div style="" class="container">
+
+                <img src="~/Content/photos/gossipStone.png" title="boing boing" class="navbar-brand" style="height:70px;width:70px;" />
+                <ul class="nav navbar-nav">
+                    <li>
+                        <p>The current server time is @DateTime.Now</p>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </footer>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

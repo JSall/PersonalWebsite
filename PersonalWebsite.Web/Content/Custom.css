@@ -6,7 +6,8 @@
     padding-bottom: 15px;
 }
 .carousel .item {
-height: 300px;
+    overflow:hidden;
+height: 500px;
 }
 /*a.NavLink{
     margin-left:5px;
@@ -32,8 +33,9 @@ a.NavLink:visited {
 .navbar-fixed-top {
     background-color:#8E0A01;
 }*/
-.navbar-fixed-bottom {
+.navbar-bottom {
     background-color:#8E0A01;
+    width:100%;
 }
 .btn {
     background-color:#0C01A2;
