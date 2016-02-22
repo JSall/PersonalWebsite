@@ -2,13 +2,19 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron" >
+<div class="jumbotron" style="padding-top:10px;" >
+    <h3 style="text-align:center;">
+        Jeffrey Arthur Sall
+    </h3>
+
+  
     <div id="homeCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#homeCarousel" data-slide-to="1"></li>
             <li data-target="#homeCarousel" data-slide-to="2"></li>
+            <li data-target="#homeCarousel" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -39,8 +45,15 @@
                 </div>
      
             </div>
-         
-        
+            <div class="item">
+          
+                <img src="~/Content/photos/Carousel/20160115_175142.jpg" />
+                <div class="carousel-caption">
+
+                </div>
+
+            </div>
+    
     </div>
     <!-- Controls -->
     <a class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
@@ -52,32 +65,41 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+    <br />
+    <p style="font-size:18px;text-indent:50px">
+        I am a professional Software Engineer who has spent the last two years employed as a .Net developer, working primarily with the MVC framework.
+        During this time I have worked within a large organization and a small start-up, and have cultivated a record of meeting client expectations
+        and designing elegant solutions to complex problems.
+    </p>
  </div>
 
 <div class="row">
-    <div class="col-md-5">
-        <h3>And on the pedestal these words appear:</h3>
+    <div class="col-md-4">
+        <h3>Curriculum Vitae</h3>
         <p>
-            ‘My name is Ozymandias, king of kings:<br />
-            Look on my works, ye Mighty, and despair!'<br />
-            Nothing beside remains. Round the decay<br />
-            Of that colossal wreck, boundless and bare<br />
-            The lone and level sands stretch far away.<br />
-        </p>
+            It is not with pride, but with anticipation, that I present my CV.
+            For while I took joy in detailing all I've accomplished in two years as a professional, 
+            it truly excites me to imagine what it may look like in two more.
+            <br />
 
-    </div>
-    <div class="col-md-3">
-        <img src="~/Content/photos/1442782444669.gif" />
+
+        </p>
+       @Html.ActionLink("Curriculum Vitae >>", "Index", "CV", null, htmlAttributes: new { @class = "btn" })
     </div>
     <div class="col-md-4">
-        <h3>Give me your tired, your poor</h3>
+        <h3> Reference</h3>
+      <p>
+          Being raised to strive for humility, I have always worried about selling myself short to potential clients or employers. 
+          So it's a good thing these fine people have advocated to brag on my behalf. 
+      </p>
+        @Html.ActionLink("References >>", "Contact", "Home", null, htmlAttributes: new { @class = "btn" })
+    </div>
+    <div class="col-md-4">
+        <h3>Portfolio</h3>
         <p>
-            Your huddled masses yearning to breathe free,<br />
-            The wretched refuse of your teeming shore.<br />
-            Send these, the homeless, tempest-tost to me,<br />
-            I lift my lamp beside the golden door!<br />
+            To a certain extent, one should let their work speak for it's self.
         </p>
-
+        @Html.ActionLink("Portfolio >>", "broken", "home", null, htmlAttributes: new { @class = "btn" })
     </div>
 </div>
 
