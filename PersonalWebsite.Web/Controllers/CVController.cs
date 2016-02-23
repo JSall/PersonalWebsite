@@ -13,10 +13,5 @@ namespace PersonalWebsite.Web.Controllers
         {
             return View();
         }
-        public ActionResult Portfolio()
-        {
-            return View();
-
-        }
     }
 }

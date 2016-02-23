@@ -1,25 +1,21 @@
 ﻿/*Classes*/
-.navbar-nav > li > p {
-    color: #ffffff;
-    text-align: center;
+.navbar-nav  >li > p {
+    color:#ffffff;
+    text-align:center;
     padding-top: 25px;
     padding-bottom: 15px;
 }
-
 .carousel .item {
-    overflow: hidden;
-    height: 500px;
+    overflow:hidden;
+height: 500px;
+}
+/*a.NavLink{
+    margin-left:5px;
+    margin-right:5px;
+    background-color:#000000;
+      color:#0fffff!important;
 }
 
-/*a.NavLink {
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #000000;
-    color: #ffffff !important;
-}*/
-/*
 a.NavLink:hover{
     margin-left:5px;
     margin-right:5px;
@@ -38,28 +34,17 @@ a.NavLink:visited {
     background-color:#8E0A01;
 }*/
 .navbar-bottom {
-    background-color: #8E0A01;
-    width: 100%;
+    background-color:#8E0A01;
+    width:100%;
 }
-
 .btn {
-    background-color: #0C01A2;
-    border-color: #7681E9;
-    color: #ffffff;
+    background-color:#0C01A2;
+    border-color:#7681E9;
+    color:#ffffff;
 }
-.jumbotron {
-    background-color:white;
-    font-size:18px;
-}
-
-.jumbotronReg {
-    background-color:white;
-    font-size:14px;
-}
-
-
 
 /*Element Styles*/
-body {
-    background-color:grey;
+body{
+    /*background-color:#DB84FF;*/
+
 }

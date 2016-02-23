@@ -13,7 +13,20 @@ namespace PersonalWebsite.Web.Controllers
             return View();
         }
 
-   
+        public ActionResult Broken()
+        {
+            string herp = null;
 
+            int derp = herp.Length;
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
