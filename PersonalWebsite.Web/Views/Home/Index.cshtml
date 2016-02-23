@@ -2,12 +2,22 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron" style="padding-top:10px;" >
+<div class="jumbotron" style="padding-top:10px;">
     <h3 style="text-align:center;">
-        Jeffrey Arthur Sall
+        Jeffrey A. Sall, B.Sc Computer Science
     </h3>
 
-  
+    <h4 style="text-align:center;">
+        2182 W. Pensacola St, Tallahassee FL 32304. USA
+    </h4>
+
+    <h4 style="text-align:center;">
+        Phone: +1 561.324.2156  Email: Jarthorsall@gmail.com
+
+
+    </h4>
+
+
     <div id="homeCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -18,88 +28,88 @@
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox" >
-            <div class="item active" >
-       
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+
                 <img src="~/Content/photos/Carousel/10422974_1016328231728515_1870625729363480655_n.jpg" />
                 <div class="carousel-caption">
-         
+
                 </div>
-  
+
             </div>
             <div class="item">
                 <img src="~/Content/photos/Carousel/20160125_165742.jpg" />
                 <div class="carousel-caption">
-           
+
                 </div>
-                
-            
+
+
 
             </div>
-           
+
             <div class="item">
                 <img src="~/Content/photos/Carousel/12645253_10154132717472345_8036958629763883885_n.jpg">
-                
+
                 <div class="carousel-caption">
-        
+
                 </div>
-     
+
             </div>
             <div class="item">
-          
+
                 <img src="~/Content/photos/Carousel/20160115_175142.jpg" />
                 <div class="carousel-caption">
 
                 </div>
 
             </div>
-    
+
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#homeCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <!-- Controls -->
-    <a class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#homeCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
     <br />
     <p style="font-size:18px;text-indent:50px">
         I am a professional Software Engineer who has spent the last two years employed as a .Net developer, working primarily with the MVC framework.
         During this time I have worked within a large organization and a small start-up, and have cultivated a record of meeting client expectations
         and designing elegant solutions to complex problems.
     </p>
- </div>
+</div>
 
 <div class="row jumbotron jumbotronReg">
     <div class="col-md-4">
         <h3>Curriculum Vitae</h3>
         <p>
             It is not with pride, but with anticipation, that I present my CV.
-            For while I took joy in detailing all I've accomplished in two years as a professional, 
+            For while I took joy in detailing all I've accomplished in two years as a professional,
             it truly excites me to imagine what it may look like in two more.
             <br />
 
 
         </p>
-       @Html.ActionLink("Curriculum Vitae >>", "Index", "CV", null, htmlAttributes: new { @class = "btn" })
+        @Html.ActionLink("Curriculum Vitae >>", "DownloadCV", "CV", null, htmlAttributes: new { @class = "btn" })
     </div>
     <div class="col-md-4">
         <h3> Reference</h3>
-      <p>
-          Being raised to strive for humility, I have always worried about selling myself short to potential clients or employers. 
-          So it's a good thing these fine people have advocated to brag on my behalf. 
-      </p>
-        @Html.ActionLink("References >>", "Contact", "Home", null, htmlAttributes: new { @class = "btn" })
+        <p>
+            Being raised to strive for humility, I have always worried about selling myself short to potential clients or employers.
+            So it's a good thing these fine people have advocated to brag on my behalf.
+        </p>
+        @Html.ActionLink("References >>", "References", "CV", null, htmlAttributes: new { @class = "btn" })
     </div>
     <div class="col-md-4">
         <h3>Portfolio</h3>
         <p>
             To a certain extent, one should let their work speak for itself.
         </p>
-        @Html.ActionLink("Portfolio", "Portfolio", "CV", null, htmlAttributes: new { @class = "btn" })
+        @Html.ActionLink("Portfolio >>", "Portfolio", "CV", null, htmlAttributes: new { @class = "btn" })
     </div>
 </div>
 

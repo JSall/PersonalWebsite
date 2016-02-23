@@ -18,5 +18,28 @@ namespace PersonalWebsite.Web.Controllers
             return View();
 
         }
+
+        public ActionResult References()
+        {
+            return View();
+        }
+
+        public ActionResult DownloadCV()
+        {
+            string filename = "CV.docx";
+            string filepath = AppDomain.CurrentDomain.BaseDirectory + "\\Content\\" + filename;
+            byte[] filedata = System.IO.File.ReadAllBytes(filepath);
+            string contentType = MimeMapping.GetMimeMapping(filepath);
+
+            var cd = new System.Net.Mime.ContentDisposition
+            {
+                FileName = filename,
+                Inline = true,
+            };
+
+            Response.AppendHeader("Content-Disposition", cd.ToString());
+
+            return File(filedata, contentType);
+        }
     }
 }
