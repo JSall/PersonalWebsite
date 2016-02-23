@@ -1,0 +1,123 @@
+﻿
+@{
+    ViewBag.Title = "Portfolio";
+}
+<style>
+    p {
+        text-indent: 50px;
+    }
+
+    .carousel {
+        background-color: lightgray;
+        height: 300px;
+    }
+</style>
+<div class="jumbotron jumbotronReg">
+    <h2>Portfolio</h2>
+    <hr />
+    <div class="row">
+        <h4>Mystery Bridge</h4>
+        <br />
+        <div class="col-md-6">
+
+            <p>
+                Database of public voter information. In this project I got a lot of experience working with SQL and managing Azure databases after pushing Entity Framework's LINQ2Entities to it's
+                limits in terms of speed. I eventually cracked and wrote a series of stored procedures in order to do the things EF did to slow.
+            </p>
+            <p>
+                This project also gave me an opportunity to do a lot of cool miscellaneous things. Using the D3 JavaScript Library to make bar charts,
+                learning the finer points of using Azure WebJobs, and make Senate redistricting maps with ArcGIS.
+            </p>
+
+        </div>
+        <div class="col-md-6 item">
+            <a target="_blank" href="~/Content/Folio/mystery-bridge.PNG"><img src="~/Content/Folio/mystery-bridge.PNG" class="thumbnail" /></a>
+        </div>
+    </div>
+    <br /><br />
+    <div class="row">
+        <h4>Legislative Reportcard</h4>
+        <br />
+        <div class="col-md-6">
+
+            <p>
+                A web application to track legislation and representatives in the Florida House and Senate.
+                Provides the user with the ability to assign a score value to each vote, and track
+                them as an aggregate.
+                Used for political advocacy, to see where a legislator stands on various issues important to the client,
+                and assign them a score accordingly.
+            </p>
+            <p>
+                This was my first opportunity to take the lead on a project from its start. In addition to have a Entity Framework Code First database,
+                the data layer in this project also has a class that populates a various data transfer objects with information from an API call to an organization called OpenStates' service
+            </p>
+
+        </div>
+        <div class="col-md-6 item">
+            <a target="_blank" href="~/Content/Folio/LegislativeScoring.PNG"><img src="~/Content/Folio/LegislativeScoring.PNG" class="thumbnail" /></a>
+        </div>
+    </div>
+    <br /><br />
+    <div class="row">
+        <h4>MQA Search Portal</h4>
+        <h5><a target="_blank" href="https://appsmqa.doh.state.fl.us/MQASearchServices/Home">https://appsmqa.doh.state.fl.us/MQASearchServices/Home</a></h5>
+        <br />
+        <div class="col-md-6">
+
+            <p>
+                Search portal for the Florida Department of Health's public information. Doctor and Masseuse license and disciplinary actions for example.
+                My boss Chris and I were contracted
+                to design the domain layer and web layer for this project, while the data layer was the Department
+                of Health's database with decades of legacy stored procedures. Some time during this project, I began to start fully leveraging jQuery
+                to build dynamic and clever front ends.
+            </p>
+
+        
+        </div>
+        <div class="col-md-6">
+     
+            <a target="_blank" href="~/Content/Folio/MQA2.PNG"> <img src="~/Content/Folio/MQA2.PNG" class="thumbnail" /></a>
+           
+        </div>
+        </div>
+        <br /><br />
+    <div class="row">
+        <h4>Poetry Out Loud Registration</h4>
+        <br />
+        <div class="col-md-6">
+
+            <p>
+                Registration form for a state wide poetry recitation contest. Collected information from schools 
+                and their students, and allowed the Department of States' staff to view that data. Taught myself the basics of MVC on this project, the first time I got paid for programming too.
+            </p>
+            <p>
+                This was my first opportunity to take the lead on a project from its start. In addition to have a Entity Framework Code First database,
+                the data layer in this project also has a class that populates a various data transfer objects with information from an API call to an organization called OpenStates' service
+            </p>
+
+        </div>
+        <div class="col-md-6 item">
+            <a target="_blank" href="~/Content/Folio/POL1.PNG"><img src="~/Content/Folio/POL1.PNG" class="thumbnail" /></a>
+            
+        </div>
+    </div>
+    <br /><br />
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Assorted Windows Apps</h4>
+                <hr />
+                <p style="text-indent:0px;">
+                    Here are some apps I made for Windows, Desktop and Mobile,
+                    while taking a class in mobile development in college.
+                </p>
+                <ul>
+                    <li><a target="_blank" href="https://www.microsoft.com/en-us/store/apps/mili-damage/9nblggh0dt5p">MILI Damage</a>: Info tool for a popular video game. Learned how to make animations in Blend. Two people actually found this useful!</li>
+                    <li><a target="_blank" href="https://www.microsoft.com/en-us/store/apps/mili-wallet/9wzdncrdmxcs">MILI Wallet</a>: First non-console based program I ever wrote. Also first time I made an API Call.</li>
+                    <li><a href="https://www.microsoft.com/en-us/store/apps/debateaid-public-forum-mobile/9nblgggzk7qx">DebateAid</a>: Timer and round guide for Public Forum style debates. Visually unappealing, but a pretty good example of a state-machine non the less.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</div>
