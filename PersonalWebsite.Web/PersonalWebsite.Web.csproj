@@ -131,6 +131,14 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Custom.css" />
+    <Content Include="Content\Folio\Bundl.PNG" />
+    <Content Include="Content\Folio\LegislativeScoring.PNG" />
+    <Content Include="Content\Folio\MQA1.PNG" />
+    <Content Include="Content\Folio\MQA2.PNG" />
+    <Content Include="Content\Folio\mystery-bridge.PNG" />
+    <Content Include="Content\Folio\POL1.PNG" />
+    <Content Include="Content\Folio\pol2.PNG" />
+    <Content Include="Content\GitHub-Mark-Light-32px.png" />
     <Content Include="Content\photos\1442782444669.gif" />
     <Content Include="Content\photos\1454008106135.gif" />
     <Content Include="Content\photos\Carousel\10422974_1016328231728515_1870625729363480655_n.jpg" />
@@ -170,6 +178,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\CV\Index.cshtml" />
+    <Content Include="Views\CV\Portfolio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
