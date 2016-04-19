@@ -1,7 +1,14 @@
-﻿@model  System.String
+﻿@model  PersonalWebsite.Web.CommandsAndClasses.MarkovChain
 @{
     ViewBag.Title = "MarkovChain";
 }
 
+@for (int i = 1; i <= 15; i++)
+{
+    
+    <p style="background-color:white;">
+        @("Order: "+i+"\n")
 
-<p style="background-color:white;">@Model</p>
+        @Model.ToString(i)
+    </p>
+}

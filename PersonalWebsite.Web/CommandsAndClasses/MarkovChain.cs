@@ -71,10 +71,10 @@ namespace PersonalWebsite.Web.CommandsAndClasses
 
         public void AddString(string s)
         {
-            StringBuilder builder = new StringBuilder(s.Length + 2 * ModelOrder);
-            builder.Append(StartChar, ModelOrder);
+            StringBuilder builder = new StringBuilder(s.Length+ 2 * ModelOrder);
+            builder.Append(StartChar,ModelOrder);
             builder.Append(s);
-            builder.Append(StopChar, ModelOrder);
+            builder.Append(StopChar,ModelOrder);
 
             for (int iStart = 0; iStart < builder.Length; ++iStart)
             {
@@ -109,7 +109,10 @@ namespace PersonalWebsite.Web.CommandsAndClasses
             }
             while (ch != StopChar);
 
-            return result.ToString().Substring(ModelOrder);
+            string clean= result.ToString().Substring(order);
+            if (clean.Contains(StartChar))
+                clean = clean.Replace(StartChar.ToString(),"");
+            return clean;
         }
 
         private char ChildGet(MarkovNode node)

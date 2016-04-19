@@ -23,7 +23,7 @@ namespace PersonalWebsite.Web.Controllers
             MarkovChain chain = new MarkovChain(15);
             FeeDText(chain);
 
-            return View("MarkovChain", model: chain.ToString(3));
+            return View("MarkovChain", chain);
         }
 
         private void FeeDText(MarkovChain model)
