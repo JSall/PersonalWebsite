@@ -120,6 +120,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="CommandsAndClasses\MarkovChain.cs" />
+    <Compile Include="Controllers\CodeExamplesController.cs" />
     <Compile Include="Controllers\CVController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -181,6 +183,7 @@
     <Content Include="Views\CV\Index.cshtml" />
     <Content Include="Views\CV\Portfolio.cshtml" />
     <Content Include="Views\CV\References.cshtml" />
+    <Content Include="Views\CodeExamples\MarkovChain.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
