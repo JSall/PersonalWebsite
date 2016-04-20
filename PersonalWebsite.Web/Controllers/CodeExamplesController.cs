@@ -1,6 +1,7 @@
 ﻿using PersonalWebsite.Web.CommandsAndClasses;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Web;
@@ -10,42 +11,47 @@ namespace PersonalWebsite.Web.Controllers
 {
     public class CodeExamplesController : Controller
     {
-        private string ex = " A vector is a sequence that supports random access to elements, constant time insertion\n" +
-"and removal of elements at the end, and linear time insertion and removal of elements at\n" +
-"the beginning or in the middle.The number of elements in a vector may vary\n" +
-"dynamically; memory management is automatic.Vector is the simplest of the STL\n" +
-"container classes, and in many cases the most efficient.\n" +
-"Member functions: push_back, pop_back size.\n";
+
         // GET: CodeExamples
         public ActionResult MarkovChain()
         {
 
-            MarkovChain chain = new MarkovChain(15);
+            MarkovChain chain = new MarkovChain(100);
             FeeDText(chain);
 
             return View("MarkovChain", chain);
         }
 
+        //public ActionResult UpdateRoBenFranklin()
+        //{
+        //    //var Twitter= FluentTwitter
+        //}
+
+
         private void FeeDText(MarkovChain model)
         {
             StringBuilder Feeder = new StringBuilder();
-            var test = ex.Split("\n".ToArray());
-            foreach (string line in test)
+            string line;
+            using (StreamReader reader = new StreamReader(Server.MapPath(Url.Content("~/Content/TextFiles/BenFranklin.txt"))))
             {
-                var l = line.Trim();
-                if (l.Length > 3)
-                    Feeder.AppendLine(l);
-                else if (Feeder.Length > 0)
+                while ((line = reader.ReadLine()) != null)
                 {
-                    model.AddString(Feeder.ToString());
-                    Feeder.Length = 0;
+
+                    var l = line.Trim();
+                    if (l.Length > 3)
+                        Feeder.AppendLine(l);
+                    else if (Feeder.Length > 0)
+                    {
+                        model.AddString(Feeder.ToString());
+                        Feeder.Length = 0;
+
+                    }
 
                 }
-
-
+                if (Feeder.Length > 0)
+                    model.AddString(Feeder.ToString());
             }
-            if (Feeder.Length > 0)
-                model.AddString(Feeder.ToString());
+           
         }
     }
 }
