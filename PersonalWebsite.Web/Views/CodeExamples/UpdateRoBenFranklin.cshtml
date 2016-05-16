@@ -1,0 +1,16 @@
+﻿@model List<string>
+@{
+    ViewBag.Title = "Update RoBenFranklin";
+}
+
+
+
+@foreach(string s in Model)
+{
+
+    <p style="background-color:white;">
+        @("Tweet: \n")
+
+        @s
+    </p>
+}

@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand NavLink" })
+            </div>
+            <div class="navbar-collapse  collapse">
+                <ul class=" nav navbar-nav">
+
+                    <li>@Html.ActionLink("Curriculum Vitae", "DownloadCV", "CV", null, htmlAttributes: new { @class = "NavLink" })</li>
+
+                    <li>@Html.ActionLink("Portfolio", "Portfolio", "CV", null, htmlAttributes: new { @class = "NavLink" })</li>
+                    <li>@Html.ActionLink("References", "References", "CV", null, htmlAttributes: new { @class = "NavLink" })</li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/jeffrey-sall-82422a116">LinkedIn Profile</a></li>
+                   
+
+                </ul>
+                <ul class=" nav navbar-nav" style="float:right;">
+                    <li>
+                        <a href="https://github.com/JSall/PersonalWebsite/tree/master" target="_blank" class="NavLink" >
+                            <i class="glyphicon">
+                                <img src="~/Content/GitHub-Mark-Light-32px.png" style="height:25px;" />
+                            </i> Check out this Website on GitHub!
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+
+        <br /><br />
+        <div style=" height:100px;">
+
+        </div>
+
+
+    </div>
+    <footer style="margin-top:10px;">
+        <nav class="nav navbar-bottom navbar-inverse">
+
+
+            <div style="" class="container">
+
+                <img src="~/Content/photos/gossipStone.png" title="boing boing" class="navbar-brand" style="height:70px;width:70px;" />
+                <ul class="nav navbar-nav">
+                    <li>
+                        <p>The current server time is @DateTime.Now</p>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
