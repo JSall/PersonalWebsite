@@ -1,0 +1,164 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+#   (use "git pull" to update your local branch)
+#
+# Changes to be committed:
+#	modified:   .vs/PersonalWebsite/v14/.suo
+#	modified:   .vs/config/applicationhost.config
+#	new file:   PersonalWebsite.Web/Content/Resume.docx
+#	modified:   PersonalWebsite.Web/Controllers/CVController.cs
+#	modified:   PersonalWebsite.Web/Controllers/CodeExamplesController.cs
+#	modified:   PersonalWebsite.Web/PersonalWebsite.Web.csproj
+#	modified:   PersonalWebsite.Web/PersonalWebsite.Web.csproj.user
+#	new file:   PersonalWebsite.Web/Properties/PublishProfiles/jasall - Web Deploy.pubxml
+#	new file:   PersonalWebsite.Web/Properties/PublishProfiles/jasall - Web Deploy.pubxml.user
+#	modified:   PersonalWebsite.Web/Views/CodeExamples/MarkovChain.cshtml
+#	new file:   PersonalWebsite.Web/Views/CodeExamples/UpdateRoBenFranklin.cshtml
+#	modified:   PersonalWebsite.Web/Views/Home/Index.cshtml
+#	modified:   PersonalWebsite.Web/Web.config
+#	new file:   PersonalWebsite.Web/bin/Hammock.ClientProfile.pdb
+#	new file:   PersonalWebsite.Web/bin/Microsoft.Owin.Security.Twitter.xml
+#	new file:   PersonalWebsite.Web/bin/Microsoft.Owin.Security.xml
+#	new file:   PersonalWebsite.Web/bin/Microsoft.Owin.xml
+#	modified:   PersonalWebsite.Web/bin/Newtonsoft.Json.dll
+#	modified:   PersonalWebsite.Web/bin/Newtonsoft.Json.xml
+#	modified:   PersonalWebsite.Web/bin/PersonalWebsite.Web.dll
+#	modified:   PersonalWebsite.Web/bin/PersonalWebsite.Web.dll.config
+#	modified:   PersonalWebsite.Web/bin/PersonalWebsite.Web.pdb
+#	new file:   PersonalWebsite.Web/bin/TweetSharp.pdb
+#	modified:   PersonalWebsite.Web/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	modified:   PersonalWebsite.Web/obj/Debug/PersonalWebsite.Web.csproj.FileListAbsolute.txt
+#	modified:   PersonalWebsite.Web/obj/Debug/PersonalWebsite.Web.csprojResolveAssemblyReference.cache
+#	modified:   PersonalWebsite.Web/obj/Debug/PersonalWebsite.Web.dll
+#	modified:   PersonalWebsite.Web/obj/Debug/PersonalWebsite.Web.pdb
+#	new file:   PersonalWebsite.Web/obj/Release/CSAutoParameterize.parameters.xml
+#	new file:   PersonalWebsite.Web/obj/Release/CSAutoParameterize/original/Views/Web.config
+#	new file:   PersonalWebsite.Web/obj/Release/CSAutoParameterize/original/Web.config
+#	new file:   PersonalWebsite.Web/obj/Release/CSAutoParameterize/transformed/Views/Web.config
+#	new file:   PersonalWebsite.Web/obj/Release/CSAutoParameterize/transformed/Web.config
+#	new file:   PersonalWebsite.Web/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/CV.docx
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/Custom.css
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/Folio/Bundl.PNG
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/Folio/LegislativeScoring.PNG
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/Folio/MQA1.PNG
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/Folio/MQA2.PNG
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/Folio/POL1.PNG
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/Folio/mystery-bridge.PNG
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/Folio/pol2.PNG
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/GitHub-Mark-Light-32px.png
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/Resume.docx
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/Site.css
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/TextFiles/BenFranklin.txt
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/bootstrap.css
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/bootstrap.min.css
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/photos/1442782444669.gif
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/photos/1454008106135.gif
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/photos/Carousel/10422974_1016328231728515_1870625729363480655_n.jpg
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/photos/Carousel/12645253_10154132717472345_8036958629763883885_n.jpg
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/photos/Carousel/20160115_175142.jpg
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/photos/Carousel/20160125_165742.jpg
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Content/photos/gossipStone.png
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Global.asax
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/_references.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/bootstrap.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/bootstrap.min.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.min.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/jquery-1.10.2.min.map
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/jquery.validate.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/jquery.validate.min.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/jquery.validate.unobtrusive.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/jquery.validate.unobtrusive.min.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/modernizr-2.6.2.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/respond.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Scripts/respond.min.js
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/CV/Index.cshtml
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/CV/Portfolio.cshtml
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/CV/References.cshtml
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/CodeExamples/MarkovChain.cshtml
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/CodeExamples/UpdateRoBenFranklin.cshtml
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/Home/Contact.cshtml
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/Home/Index.cshtml
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/Shared/Error.cshtml
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/Shared/_Layout.cshtml
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/Web.config
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Views/_ViewStart.cshtml
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/Web.config
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/Antlr3.Runtime.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/Hammock.ClientProfile.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/Microsoft.Owin.Security.Twitter.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/Microsoft.Owin.Security.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/Microsoft.Owin.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/Microsoft.Web.Infrastructure.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/Newtonsoft.Json.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/Owin.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/PersonalWebsite.Web.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/System.Web.Helpers.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/System.Web.Mvc.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/System.Web.Optimization.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/System.Web.Razor.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/System.Web.WebPages.Deployment.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/System.Web.WebPages.Razor.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/System.Web.WebPages.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/TweetSharp.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/WebGrease.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.CSharp.Core.targets
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.CodeAnalysis.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/Microsoft.VisualBasic.Core.targets
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/System.Collections.Immutable.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/System.Reflection.Metadata.dll
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/VBCSCompiler.exe
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/VBCSCompiler.exe.config
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/csc.exe
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/bin/roslyn/vbc.exe
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/favicon.ico
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/fonts/glyphicons-halflings-regular.eot
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/fonts/glyphicons-halflings-regular.svg
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/fonts/glyphicons-halflings-regular.ttf
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/fonts/glyphicons-halflings-regular.woff
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PackageTmp/packages.config
+#	new file:   PersonalWebsite.Web/obj/Release/Package/PersonalWebsite.Web.SourceManifest.xml
+#	new file:   PersonalWebsite.Web/obj/Release/PersonalWebsite.Web.csproj.FileListAbsolute.txt
+#	new file:   PersonalWebsite.Web/obj/Release/PersonalWebsite.Web.dll
+#	new file:   PersonalWebsite.Web/obj/Release/PersonalWebsite.Web.pdb
+#	renamed:    PersonalWebsite.Web/obj/Debug/build.force -> PersonalWebsite.Web/obj/Release/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+#	new file:   PersonalWebsite.Web/obj/Release/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+#	new file:   PersonalWebsite.Web/obj/Release/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+#	new file:   PersonalWebsite.Web/obj/Release/TransformWebConfig/assist/Web.config
+#	new file:   PersonalWebsite.Web/obj/Release/TransformWebConfig/original/Web.config
+#	new file:   PersonalWebsite.Web/obj/Release/TransformWebConfig/transformed/Web.config
+#	new file:   PersonalWebsite.Web/obj/Release/_WPPLastBuildInfo.txt
+#	modified:   PersonalWebsite.Web/packages.config
+#	deleted:    packages/Newtonsoft.Json.6.0.4/Newtonsoft.Json.6.0.4.nupkg
+#	deleted:    packages/Newtonsoft.Json.6.0.4/lib/net20/Newtonsoft.Json.dll
+#	deleted:    packages/Newtonsoft.Json.6.0.4/lib/net35/Newtonsoft.Json.dll
+#	deleted:    packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.dll
+#	deleted:    packages/Newtonsoft.Json.6.0.4/lib/net45/Newtonsoft.Json.dll
+#	deleted:    packages/Newtonsoft.Json.6.0.4/lib/netcore45/Newtonsoft.Json.dll
+#	deleted:    packages/Newtonsoft.Json.6.0.4/lib/portable-net40%2Bsl5%2Bwp80%2Bwin8%2Bwpa81/Newtonsoft.Json.dll
+#	deleted:    packages/Newtonsoft.Json.6.0.4/lib/portable-net40%2Bsl5%2Bwp80%2Bwin8%2Bwpa81/Newtonsoft.Json.xml
+#	deleted:    packages/Newtonsoft.Json.6.0.4/lib/portable-net45%2Bwp80%2Bwin8%2Bwpa81/Newtonsoft.Json.dll
+#	new file:   packages/Newtonsoft.Json.8.0.3/Newtonsoft.Json.8.0.3.nupkg
+#	new file:   packages/Newtonsoft.Json.8.0.3/lib/net20/Newtonsoft.Json.dll
+#	renamed:    packages/Newtonsoft.Json.6.0.4/lib/net20/Newtonsoft.Json.xml -> packages/Newtonsoft.Json.8.0.3/lib/net20/Newtonsoft.Json.xml
+#	new file:   packages/Newtonsoft.Json.8.0.3/lib/net35/Newtonsoft.Json.dll
+#	renamed:    packages/Newtonsoft.Json.6.0.4/lib/net45/Newtonsoft.Json.xml -> packages/Newtonsoft.Json.8.0.3/lib/net35/Newtonsoft.Json.xml
+#	new file:   packages/Newtonsoft.Json.8.0.3/lib/net40/Newtonsoft.Json.dll
+#	renamed:    packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml -> packages/Newtonsoft.Json.8.0.3/lib/net40/Newtonsoft.Json.xml
+#	new file:   packages/Newtonsoft.Json.8.0.3/lib/net45/Newtonsoft.Json.dll
+#	renamed:    packages/Newtonsoft.Json.6.0.4/lib/net35/Newtonsoft.Json.xml -> packages/Newtonsoft.Json.8.0.3/lib/net45/Newtonsoft.Json.xml
+#	new file:   packages/Newtonsoft.Json.8.0.3/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll
+#	renamed:    packages/Newtonsoft.Json.6.0.4/lib/portable-net45%2Bwp80%2Bwin8%2Bwpa81/Newtonsoft.Json.xml -> packages/Newtonsoft.Json.8.0.3/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml
+#	new file:   packages/Newtonsoft.Json.8.0.3/lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll
+#	renamed:    packages/Newtonsoft.Json.6.0.4/lib/netcore45/Newtonsoft.Json.xml -> packages/Newtonsoft.Json.8.0.3/lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml
+#	renamed:    packages/Newtonsoft.Json.6.0.4/tools/install.ps1 -> packages/Newtonsoft.Json.8.0.3/tools/install.ps1
+#
+

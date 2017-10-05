@@ -26,7 +26,7 @@ namespace PersonalWebsite.Web.Controllers
 
         public ActionResult DownloadCV()
         {
-            string filename = "CV.pdf";
+            string filename = "Resume.docx";
             string filepath = AppDomain.CurrentDomain.BaseDirectory + "\\Content\\" + filename;
             byte[] filedata = System.IO.File.ReadAllBytes(filepath);
             string contentType = MimeMapping.GetMimeMapping(filepath);

@@ -1,16 +1,12 @@
-﻿@model List<string>
+﻿@model System.Collections.Generic.List<string>
 @{
-    ViewBag.Title = "Update RoBenFranklin";
+    ViewBag.Title = "UpdateRoBenFranklin";
 }
 
 
-
-@foreach(string s in Model)
+@foreach (var s in Model)
 {
-
     <p style="background-color:white;">
-        @("Tweet: \n")
-
         @s
     </p>
 }

@@ -3,12 +3,12 @@
     ViewBag.Title = "MarkovChain";
 }
 
-@for (int i = 1; i <= 15; i++)
+@for (int i = 1; i <= 10; i++)
 {
     
     <p style="background-color:white;">
-        @("Tweet #: "+i+"\n")
+        @("Order: "+i*2+"\n")
 
-        @Model.ToString(5)
+        @Model.ToString(i*5)
     </p>
 }

@@ -17,7 +17,7 @@ namespace PersonalWebsite.Web.Controllers
         public ActionResult MarkovChain()
         {
 
-            MarkovChain chain = new MarkovChain(10);
+            MarkovChain chain = new MarkovChain(100);
             FeeDText(chain);
 
             return View("MarkovChain", chain);
@@ -25,28 +25,33 @@ namespace PersonalWebsite.Web.Controllers
 
         public ActionResult UpdateRoBenFranklin()
         {
-            MarkovChain chain = new MarkovChain(10);
+            List<string> model = new List<string>();
+            MarkovChain chain = new MarkovChain(100);
             FeeDText(chain);
-            List<string> tweets = new List<string>();
 
-            var twitterApp = new TwitterService("K47rQlImnCUoRFTnVtB2yJfaN", "5Wv4cjWfRsWZO5LuWLxldCh0AU8GBYQVAyfODnhzhkGEp5r1BG");
-            twitterApp.AuthenticateWith("722475012255563776-Ukvwm59B9U94AGo014K0TJA2h5zUWot", "v1qWB8Bs9KPZHyQccHozpsGb85wHrRGYW76lJEsdCd6Y9");
+            var service = new TwitterService("K47rQlImnCUoRFTnVtB2yJfaN", "5Wv4cjWfRsWZO5LuWLxldCh0AU8GBYQVAyfODnhzhkGEp5r1BG");
+            service.AuthenticateWith("722475012255563776-Ukvwm59B9U94AGo014K0TJA2h5zUWot", "v1qWB8Bs9KPZHyQccHozpsGb85wHrRGYW76lJEsdCd6Y9");
 
-            for (int i = 1; i <= 15; i++)
+            
+            
+
+            for (int i = 0; i < 15; i++)
             {
-                string tweet = chain.ToString(5);
-                tweets.Add(tweet);
-                twitterApp.SendTweet(new SendTweetOptions
+                string generate = chain.ToString(25);
+                while (generate.Length < 140)
                 {
-                    Status = tweet
-                });
+                    generate += " "+chain.ToString(25);
+                }
+                string msg = generate.Substring(0, 140);
+                var tweet = new SendTweetOptions { Status = msg };
+                service.SendTweet(tweet);
+                model.Add(msg);
 
             }
+            
 
 
-           
-
-            return View(tweets);
+            return View(model);
         }
 
 
@@ -73,7 +78,7 @@ namespace PersonalWebsite.Web.Controllers
                 if (Feeder.Length > 0)
                     model.AddString(Feeder.ToString());
             }
-
+           
         }
     }
 }

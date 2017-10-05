@@ -112,12 +112,7 @@ namespace PersonalWebsite.Web.CommandsAndClasses
             string clean= result.ToString().Substring(order);
             if (clean.Contains(StartChar))
                 clean = clean.Replace(StartChar.ToString(),"");
-
-            while (clean.Length < 140)
-                clean = clean + " " + ToString(order);
-            
-            return clean.Substring(0, 140);
-            
+            return clean;
         }
 
         private char ChildGet(MarkovNode node)
